@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    background-color: #333;
+}
+
+nav {
+    text-align: center;
+    margin-top:20px; /* Adjust margin as needed */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: px;
+    padding-bottom: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+nav ul li a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+nav ul li a{
+    transition: font-size 0.3s ease-in-out, text-decoration 0.4s ease-in-out;
+}
+
+nav ul li a:hover::after{
+    transition: font-size 0.3s ease-in-out, text-decoration 0.4s ease-in-out;
+}
+
+.table_of_hobbies a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.table_of_hobbies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#photo{
+    padding-right: 10%;
+    font-size: xx-large;
+}
+
+#prog{
+    padding-left: 10%;
+    font-size: xx-large;
+
+}
+
+#line{
+    background-color: aliceblue;
+    width: 2px;
+    height: 30%;
+}
+
+
+
+#photo a:hover{
+    font-size: 50px;
+}
+
+#prog a:hover{
+    font-size: 50px;
+}
+
+#photo a{
+    transition: font-size 0.3s ease-in-out;
+}
+#prog a{
+    transition: font-size 0.3s ease-in-out;
+}
+
+#photo:hover::after,
+#prog:hover::after {
+    transition: font-size 0.2s ease-in-out;
+}

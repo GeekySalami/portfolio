@@ -1,0 +1,132 @@
+/* Add the following styles to your style.css file */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    background-color: #333;
+}
+
+nav {
+    text-align: center;
+    margin-top:20px; /* Adjust margin as needed */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: px;
+    padding-bottom: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+nav ul li a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+nav ul li a{
+    transition: font-size 0.3s ease-in-out, text-decoration 0.4s ease-in-out;
+}
+
+nav ul li a:hover::after{
+    transition: font-size 0.3s ease-in-out, text-decoration 0.4s ease-in-out;
+}
+
+#typewriter{
+    color: rgb(68, 238, 187);
+}
+#cursor{
+    color: rgb(68, 238, 187);
+    animation: blink 0.9s linear infinite;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 100%;
+    }
+    20%{
+        opacity: 20%;
+    }
+    40%{
+        opacity: 0%;
+    }
+
+}
+.static{
+    font-size: 12vw;
+    padding-left: 15px;
+    padding-top: 4vh;
+}
+
+.static{
+    height: calc(100vh - 50px);
+    margin-top: 0px;
+}
+.static{
+    background-color: rgb(12, 12, 12);
+}
+.table_of_hobbies a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.table_of_hobbies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#photo{
+    padding-right: 10%;
+    font-size: xx-large;
+}
+
+#prog{
+    padding-left: 10%;
+    font-size: xx-large;
+
+}
+
+#line{
+    background-color: aliceblue;
+    width: 2px;
+    height: 30%;
+}
+
+#photo a:hover ,#prog a:hover{
+    font-size: 50px;
+}
+
+#photo a,#prog a{
+    transition: font-size 0.2s ease-in-out;
+}
+
+@keyframes bigger {
+    50%{
+        font-size: 30px;
+    }
+    100%{
+        font-size: 1000px;
+    }
+}
